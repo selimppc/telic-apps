@@ -1,0 +1,354 @@
+body{
+    background: url('../images/bg.jpg') repeat;
+    height: auto;
+    font-family: sans-serif;
+}
+#wrapper{
+    width: 960px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+
+
+/* -------------------------------------------------------- */
+/*------------- Logo -------------------- */
+#logo{
+    width: 100%;
+    float: left;
+}
+
+
+
+/* -------------------------------------------------------- */
+/*------------- Navigation - Menu -------------------- */
+nav{
+    width: 951px;
+    float: left;
+    background: url('../images/nav_bg.jpg') repeat-x;
+    height: 20px;
+    padding: 5px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: white;
+    font-size: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+nav a:active{
+    position:relative;
+    text-decoration: none;
+    color: #CE8D3D;
+    font-size: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+
+/* -------------------------------------------------------- */
+/*------------- Image Slider - Banner -------------------- */
+#image_slider{
+    float: left;
+    width: 100%;
+}
+
+
+
+/* -------------------------------------------------------- */
+/*------------- Section - Content Area -------------------- */
+section{
+    float: left;
+    width: 100%;
+    background: white;
+    color: #666;
+    margin-bottom:5px;
+}
+article{
+    float: left;
+    width: 708px;
+    padding: 15px;
+}
+
+
+aside{
+    float: left;
+    width: 222px;
+    background: url('../images/aside_bg.jpg') repeat-y ;
+    height: 100%;
+    /* padding: 10px; */
+}
+.aside_contact{
+    float: left;
+    width: 202px;
+    text-align: center;
+    color: #496A11;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+.aside_about_me{
+    float: left; 
+    width: 100%;
+}
+.aside_img{
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+.aside_img img{
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+.aside_title{
+    float: left;
+    width: 113px;
+    text-align: center;
+    color: #666;
+    background: #ddd;
+    padding: 10px;
+    font-weight: bold;
+}
+.aside_content{
+    color: #666666;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 40px;
+    padding: 10px;
+    text-align: justify;
+    width: 202px;
+}
+
+
+
+/* -------------------------------------------------------- */
+/*------------- Footer Area -------------------- */
+footer{
+    float: left;
+    width: 940px;
+    padding: 10px;
+    background: url('../images/footer_bg.jpg') repeat-x;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 13px;
+    border-radius: 3px;
+    height: 100px;
+}
+.footer_1{
+    float: left;
+    width: 300px;
+}
+.footer_2{
+    float: left;
+    width: 300px;
+}
+.footer_3{
+    float: left;
+    width: 340px;
+}
+
+
+/*------------- Required color: #FF6600; -------------------- */
+
+.required{
+    color: #FF6600;
+}
+.border{
+    border: 1px solid #CCCCCC;
+    padding: 3px;
+}
+.btn_submit {
+    background-color: #5A981B;
+    background-image: -moz-linear-gradient(center top , #A2C42F, #3D840E);
+    border: 1px solid #5A981B;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-family: arial,helvetica,sans-serif;
+    font-weight: bold;
+    padding: 10px 25px;
+    text-align: center;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+}
+.btn_submit:hover {
+    background-color: #5A981B;
+    background-image: -moz-linear-gradient(center top , #3D840E, #A2C42F);
+    border: 1px solid #5A981B;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-family: arial,helvetica,sans-serif;
+    font-weight: bold;
+    padding: 10px 25px;
+    text-align: center;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.read_more {
+    background-color: #5A981B;
+    background-image: -moz-linear-gradient(center top , #A2C42F, #3D840E);
+    border: 1px solid #5A981B;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-family: arial,helvetica,sans-serif;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+}
+.read_more:hover {
+    background-color: #5A981B;
+    background-image: -moz-linear-gradient(center top , #3D840E, #A2C42F);
+    border: 1px solid #5A981B;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-family: arial,helvetica,sans-serif;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+.read_more a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*------------- ------------------------ -------------------- */
+/*------------- Home Message Content -------------------- */
+/*------------- ------------------------ -------------------- */
+
+#home_message_content{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.home_message_img{
+    float: left;
+    width: 22%;
+}
+.home_message_img img{
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.home_message_content_right{
+    float: left;
+    width: 76%;
+    
+}
+.home_message_title{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.home_message_text{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.home_message_readmore{
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: right;
+    
+}
+
+
+
+/*======================== Pagination  ================================== */
+.pagination a {
+    background: none repeat scroll 0 0 #509018;
+    border: 1px solid white;
+    color: white;
+    font-size: 13px;
+    padding: 4px 7px;
+    text-decoration: none;
+}
+.pagination a:hover {
+    background: none repeat scroll 0 0 Green;
+    font-weight: normal;
+    color: yellow;
+}
+.pagination strong {
+    background: none repeat scroll 0 0 Green;
+    padding: 4px 7px;
+    border: 1px solid #CAC9C9;
+    text-decoration: none;
+    color: white;
+}
+
+/*------------- ------------------------ -------------------- */
+/*-------------  -------------------- */
+
+.home_title a{
+    text-decoration: none;
+    color: #666;
+}
+.home_title a:hover{
+    text-decoration: underline;
+    color: #3D840E;
+}
+
+
+
+
+
+/*------------- ------------------------ -------------------- 
+HOme Page Content Details:::::
+------------ ------------------------ -------------------- */
+#content_detail{
+    float: left;
+    width: 100%;
+}
+.content_image{
+    float: left;
+    width: 52%;
+}
+.content_image img {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 330px;
+}
+.product_description{
+    float: left;
+    width: 48%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
